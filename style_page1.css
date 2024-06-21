@@ -1,0 +1,11 @@
+/*Select the first <p> within the .content div*/
+.content p:first-child{
+    font-weight: bold;
+    color: blue;
+}
+
+/*select all other <p> elements within the .content div*/
+.content p:not(:first-child){
+    font-style: italic;
+    color: gray;
+}
